@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de Incidencias</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<h1>Listado de Incidencias</h1>
+
+<div class="filtros">
+    <select id="filtroEstado">
+        <option value="">Todos los estados</option>
+        <option value="Abierta">Abierta</option>
+        <option value="En proceso">En proceso</option>
+        <option value="Cerrada">Cerrada</option>
+    </select>
+
+    <select id="filtroPrioridad">
+        <option value="">Todas las prioridades</option>
+        <option value="Alta">Alta</option>
+        <option value="Media">Media</option>
+        <option value="Baja">Baja</option>
+    </select>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Usuario</th>
+            <th>Descripción</th>
+            <th>Estado</th>
+            <th>Prioridad</th>
+        </tr>
+    </thead>
+    <tbody id="tablaIncidencias"></tbody>
+</table>
+
+<a href="index.html">Registrar nueva incidencia</a>
+
+<script src="js/app.js"></script>
+</body>
+</html>

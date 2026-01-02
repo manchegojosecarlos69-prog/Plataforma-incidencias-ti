@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Incidencias TI</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<h1>Registro de Incidencias TI</h1>
+
+<form id="formIncidencia">
+    <label>Usuario</label>
+    <input type="text" id="usuario" required>
+
+    <label>Descripción</label>
+    <textarea id="descripcion" required></textarea>
+
+    <label>Estado</label>
+    <select id="estado">
+        <option value="Abierta">Abierta</option>
+        <option value="En proceso">En proceso</option>
+        <option value="Cerrada">Cerrada</option>
+    </select>
+
+    <label>Prioridad</label>
+    <select id="prioridad">
+        <option value="Alta">Alta</option>
+        <option value="Media">Media</option>
+        <option value="Baja">Baja</option>
+    </select>
+
+    <button type="submit">Registrar Incidencia</button>
+</form>
+
+<a href="incidencias.html">Ver Incidencias Registradas</a>
+
+<script src="js/app.js"></script>
+</body>
+</html>
