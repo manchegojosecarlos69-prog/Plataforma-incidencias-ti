@@ -1,0 +1,2 @@
+Descripción del sistema
+El sistema de Gestión de Incidencias TI es una plataforma web que permite registrar, visualizar y organizar incidencias relacionadas con soporte tecnológico. Los usuarios pueden registrar incidencias indicando el estado y la prioridad, mientras que el sistema muestra un listado dinámico que permite filtrar las incidencias según su estado (Abierta, En proceso, Cerrada) y prioridad (Alta, Media, Baja), facilitando el control y seguimiento de los incidentes de manera ordenada y eficiente.
